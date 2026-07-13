@@ -1,2 +1,28 @@
 # Project-L.A.S.N.A
 The intersection of History, Neuroscience, and Space Logistics. Architecting the backbone of future human expansion.
+
+# Project L.A.S.N.
+**[Logistics, AI, Space, Neuroscience, Archive]**
+
+> "Those who cannot remember the past are condemned to repeat it. Those who model the past can optimize the future."
+
+## The Mission
+L.A.S.N.A is an architectural framework designed to solve the ultimate puzzle: **How do we sustain human expansion into space?** 
+
+By integrating **Historical Data (Archive)**, **Neural Decision Models (Neuroscience)**, and **Advanced Logistics Optimization (AI)**, this project aims to create a self-correcting supply chain system capable of operating in the high-latency, high-risk environments of the final frontier.
+
+## Why L.A.S.N.A?
+*   **Archive:** We treat history not as a story, but as a dataset of bottleneck events.
+*   **Neuro:** We mimic human cognitive resilience to build AI that doesn't panic when the unexpected happens.
+*   **Space:** Because the supply chain of the future won't fit on a map of Earth.
+
+## Roadmap: The First Three Months
+- [ ] **Phase 1 (Data Layer):** Mapping historical trade disruptions into Neo4j graphs.
+- [ ] **Phase 2 (Neuro Layer):** Building reinforcement learning agents based on cognitive decision models.
+- [ ] **Phase 3 (Space Layer):** Simulating logistics networks under deep-space communication constraints.
+
+## Current Status
+*Currently constructing the historical graph of global trade-route failures. We are teaching the machine why the Silk Road mattered, so it can build the Mars Road later.*
+
+---
+*Built by Ririku Shirakawa(Stella), a developer who prefers hard problems over easy exits.*
