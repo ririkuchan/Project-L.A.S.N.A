@@ -24,5 +24,24 @@ By integrating **Historical Data (Archive)**, **Neural Decision Models (Neurosci
 ## Current Status
 *Currently constructing the historical graph of global trade-route failures. We are teaching the machine why the Silk Road mattered, so it can build the Mars Road later.*
 
+### Day 1: Foundation
+* **Goal**: Established the basic network nodes and connection logic.
+* **Key Components**: Created `Location` nodes and `CONNECTED_TO` relationships.
+
+### Day 2: Data Enrichment
+* **Goal**: Added logistics intelligence to the network.
+* **Properties Added**: `transport` (method), `distance` (numerical value).
+* **Execution**: Used `SET` command to update relationships without recreating nodes.
+
+### Day 3: Time-Axis Integration
+* **Goal**: Added historical context to enable time-slice analysis.
+* **Properties Added**: `start_year`, `end_year`.
+* **Key Analysis Query**: 
+  ```cypher
+  // Query to extract routes active in a specific year (e.g., 250 AD)
+  MATCH (c)-[r:CONNECTED_TO]->(s)
+  WHERE r.start_year <= 250 AND r.end_year >= 250
+  RETURN c, r, s
+
 ---
 *Built by Ririku Shirakawa(Stella), a developer who prefers hard problems over easy exits.*
