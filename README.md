@@ -1,7 +1,5 @@
 # Project-L.A.S.N.A
 The intersection of History, Neuroscience, and Space Logistics. Architecting the backbone of future human expansion.
-
-# Project L.A.S.N.
 **[Logistics, AI, Space, Neuroscience, Archive]**
 
 > "Those who cannot remember the past are condemned to repeat it. Those who model the past can optimize the future."
