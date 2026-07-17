@@ -53,5 +53,14 @@ By integrating **Historical Data (Archive)**, **Neural Decision Models (Neurosci
   MATCH p = (start:Location {name: 'Changan'})-[:CONNECTED_TO*..5]->(end:Location {name: 'Rome'})
   RETURN p
 
+  ### Day 4　plus: Thought Layer & Linguistic Integration
+* **Goal**: Bridging historical logistics with strategic philosophy.
+* **New Concepts**:
+  - **Thought Layer**: Integrated `Quote` and `Person` nodes to map historical decision-making models.
+  - **Linguistic Nuance**: Successfully integrated multilingual data (German, English) as a foundation for future cross-cultural logistics analysis.
+* **Key Implementation**:
+  - Developed `add_quotes.py` to automate the ingestion of strategic wisdom into the Neo4j graph.
+  - Established `RELEVANT_TO` relationships linking critical bottleneck events to their corresponding strategic responses.
+
 ---
 *Built by Ririku Shirakawa(Stella), a developer who prefers hard problems over easy exits.*
