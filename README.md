@@ -43,5 +43,16 @@ By integrating **Historical Data (Archive)**, **Neural Decision Models (Neurosci
   WHERE r.start_year <= 250 AND r.end_year >= 250
   RETURN c, r, s
 
+  ### Day 4: Network Expansion & Pathfinding
+* **Goal**: Expanded the network with intermediate hubs (Samarkand, Alexandria).
+* **New Concepts**: 
+  - Network diversification: Transitioned from linear routes to a multi-node mesh network.
+  - Path exploration: Implemented variable-length pathfinding to visualize connectivity.
+* **Key Query**:
+  ```cypher
+  // Explore paths up to 5 steps from Changan to Rome
+  MATCH p = (start:Location {name: 'Changan'})-[:CONNECTED_TO*..5]->(end:Location {name: 'Rome'})
+  RETURN p
+
 ---
 *Built by Ririku Shirakawa(Stella), a developer who prefers hard problems over easy exits.*
