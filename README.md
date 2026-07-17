@@ -10,9 +10,10 @@ L.A.S.N.A is an architectural framework designed to solve the ultimate puzzle: *
 By integrating **Historical Data (Archive)**, **Neural Decision Models (Neuroscience)**, and **Advanced Logistics Optimization (AI)**, this project aims to create a self-correcting supply chain system capable of operating in the high-latency, high-risk environments of the final frontier.
 
 ## Why L.A.S.N.A?
-*   **Archive:** We treat history not as a story, but as a dataset of bottleneck events.
-*   **Neuro:** We mimic human cognitive resilience to build AI that doesn't panic when the unexpected happens.
+*   **Archive:** We treat history not as a story, but as a dataset of bottleneck events and the strategic wisdom used to overcome them.
+*   **Neuro:** We mimic human cognitive resilience to build AI that doesn't panic when the unexpected happens, learning from historical decision-making models.
 *   **Space:** Because the supply chain of the future won't fit on a map of Earth.
+*   **Linguistics:** We integrate multilingual archives (Russian, Cantonese, etc.) to capture the full spectrum of historical trade and logistics nuance.
 
 ## Roadmap: The First Three Months
 - [ ] **Phase 1 (Data Layer):** Mapping historical trade disruptions into Neo4j graphs.
