@@ -53,7 +53,7 @@ By integrating **Historical Data (Archive)**, **Neural Decision Models (Neurosci
   MATCH p = (start:Location {name: 'Changan'})-[:CONNECTED_TO*..5]->(end:Location {name: 'Rome'})
   RETURN p
 
-  ### Day 4　plus: Thought Layer & Linguistic Integration
+### Day 4　plus: Thought Layer & Linguistic Integration
 * **Goal**: Bridging historical logistics with strategic philosophy.
 * **New Concepts**:
   - **Thought Layer**: Integrated `Quote` and `Person` nodes to map historical decision-making models.
