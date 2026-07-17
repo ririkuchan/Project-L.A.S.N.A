@@ -43,7 +43,7 @@ By integrating **Historical Data (Archive)**, **Neural Decision Models (Neurosci
   WHERE r.start_year <= 250 AND r.end_year >= 250
   RETURN c, r, s
 
-  ### Day 4: Network Expansion & Pathfinding
+### Day 4: Network Expansion & Pathfinding
 * **Goal**: Expanded the network with intermediate hubs (Samarkand, Alexandria).
 * **New Concepts**: 
   - Network diversification: Transitioned from linear routes to a multi-node mesh network.
